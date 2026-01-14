@@ -1,0 +1,87 @@
+{
+    "id": "demo-uuid",
+    "slug": "demo",
+    "name_zh": "汉教云",
+    "name_en": "Hanjiao Cloud",
+    "name_mn": "Хятад Хэлний Үүл",
+    "logo_url": "/logo.png",
+    "phone": "+86 123 4567 8901",
+    "email": "contact@hanjiaoyun.com",
+    "address_zh": "北京市海淀区中关村大街演示中心",
+    "address_en": "Demo Center, Zhongguancun St, Haidian, Beijing",
+    "address_mn": "Бээжин хот, Хайдиань дүүрэг, Жунгуанцунь гудамж",
+    "settings": {
+        "hero_section": {
+            "title_zh": "连接世界的汉语桥梁",
+            "title_en": "Connecting the World Through Chinese",
+            "title_mn": "Хятад хэлээр дэлхийг холбоно",
+            "subtitle_zh": "专业的师资力量，灵活的教学模式，让汉语学习更简单。",
+            "subtitle_en": "Professional teachers, flexible modes, making Chinese learning simple.",
+            "subtitle_mn": "Мэргэжлийн багш нар, уян хатан сургалт, хятад хэлийг хялбар сур.",
+            "cta_text_zh": "立即咨询",
+            "cta_text_en": "Inquire Now",
+            "cta_text_mn": "Одоо зөвлөгөө авах",
+            "bg_image": ""
+        },
+        "features_section": {
+            "items": [
+                {
+                    "title_zh": "资深师资",
+                    "title_en": "Senior Teachers",
+                    "title_mn": "Мэргэжлийн багш нар",
+                    "desc_zh": "所有教师均持有国际汉语教师证书及多年实战经验。",
+                    "desc_en": "All teachers hold CTCSOL and have years of teaching experience.",
+                    "desc_mn": "Бүх багш нар олон улсын хятад хэлний багшлах эрхийн гэрчилгээтэй, олон жилийн туршлагатай."
+                },
+                {
+                    "title_zh": "小班授课",
+                    "title_en": "Small Classes",
+                    "title_mn": "Цөөн хүнтэй анги",
+                    "desc_zh": "每班不超过 6 人，确保每位学员都能获得充分的互动机会。",
+                    "desc_en": "Max 6 students per class to ensure interactive opportunities for all.",
+                    "desc_mn": "Сурагч бүрт хангалттай цаг гаргахын тулд нэг ангид 6-аас илүүгүй оюутан суралцана."
+                },
+                {
+                    "title_zh": "沉浸式学习",
+                    "title_en": "Immersive Learning",
+                    "title_mn": "Орчинд нь суралцах",
+                    "desc_zh": "全中文教学环境结合多种多媒体互动，提升学习效率。",
+                    "desc_en": "Full Chinese environment with multimedia interactions to boost efficiency.",
+                    "desc_mn": "Дан хятад хэлээр хичээллэх орчин, мультимедиа ашиглан үр дүнг сайжруулна."
+                },
+                {
+                    "title_zh": "灵活安排",
+                    "title_en": "Flexible Schedule",
+                    "title_mn": "Уян хатан хуваарь",
+                    "desc_zh": "提供全天候多种时段选择，完美契合您的日常生活。",
+                    "desc_en": "Various time slots available 24/7, fitting your daily life perfectly.",
+                    "desc_mn": "Өдрийн аль ч цагт хичээллэх боломжтой, таны өдөр тутмын амьдралд тохирно."
+                }
+            ]
+        },
+        "about_section": {
+            "title_zh": "关于汉教云",
+            "title_en": "About Hanjiao Cloud",
+            "title_mn": "Бидний тухай",
+            "content_zh": "汉教云是由全球顶尖对外汉语专家团队打造的在线教育品牌。我们不仅教授语言，更致力于搭建一座跨越国界的文化桥梁。通过前沿的教学技术与深厚的文化底蕴，汉教云已帮助全球数万名学员实现了汉语梦。",
+            "content_en": "Hanjiao Cloud is an online education brand created by top TCFL experts. We don't just teach language, we build bridges between cultures. With cutting-edge tech and deep culture, we've helped tens of thousands reach their Chinese goals.",
+            "content_mn": "Манай сургууль дэлхийн өнцөг булан бүрт байгаа суралцагчдад онлайнаар хятад хэл заах хамгийн чанартай үйлчилгээг үзүүлж байна."
+        },
+        "show_testimonials": true,
+        "show_courses": true,
+        "show_teachers": true,
+        "social_platforms": {
+            "messenger_link": "https://m.me/your-facebook-page",
+            "wechat_id": "Ulaanbaater",
+            "wechat_qr_url": "/images/wechat_qr.png",
+            "web3forms_key": "b2f83a4b-d33d-4a18-b1a5-48cf44dd0f97"
+        }
+    },
+    "seo": {
+        "title_zh": "汉教云演示中心 - 专业汉语培训",
+        "title_en": "Hanjiao Cloud - Professional Chinese Training",
+        "description_zh": "提供高质量的线上线下汉语课程",
+        "description_en": "High quality online and offline Chinese courses",
+        "keywords": "汉语培训,对外汉语,中文学习,Chinese training,learn Chinese"
+    }
+}

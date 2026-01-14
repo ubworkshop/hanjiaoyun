@@ -1,0 +1,62 @@
+[
+    {
+        "id": "ts1",
+        "student_name_zh": "John Smith",
+        "student_name_en": "John Smith",
+        "student_name_mn": "Жон Смит",
+        "content_zh": "这里的老师非常专业，我的HSK成绩在三个月内提高了30分！",
+        "content_en": "The teachers here are very professional. My HSK score increased by 30 points in three months!",
+        "content_mn": "Эндхийн багш нар маш мэргэжлийн, миний HSK оноо 3 сарын дотор 30-аар нэмэгдсэн!",
+        "course_name_zh": "HSK 4级强化班",
+        "course_name_en": "HSK 4 Intensive",
+        "course_name_mn": "HSK 4 Эрчимжүүлсэн",
+        "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=John",
+        "rating": 5,
+        "is_visible": true
+    },
+    {
+        "id": "ts2",
+        "student_name_zh": "Anna Petrova",
+        "student_name_en": "Anna Petrova",
+        "student_name_mn": "Анна Петрова",
+        "content_zh": "我很喜欢在线课程的灵活性，而且教学内容非常贴近实用生活。",
+        "content_en": "I love the flexibility of the online courses, and the teaching content is very close to practical life.",
+        "content_mn": "Онлайн хичээлийн уян хатан байдалд дуртай, хичээлийн агуулга амьдралд маш ойрхон.",
+        "course_name_zh": "商务汉语进阶",
+        "course_name_en": "Advanced Business Chinese",
+        "course_name_mn": "Бизнес хятад хэл",
+        "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=Anna",
+        "rating": 5,
+        "is_visible": true
+    },
+    {
+        "id": "ts3",
+        "student_name_zh": "Ahmed Ali",
+        "student_name_en": "Ahmed Ali",
+        "student_name_mn": "Ахмед Али",
+        "content_zh": "从零基础到能够简单交流，我只用了半年时间。这里的互动教学法真的很有效！",
+        "content_en": "From zero foundation to basic communication, it only took me six months. The interactive method really works!",
+        "content_mn": "Анхан шатны мэдлэггүй байсан ч хагас жилийн дотор хятадаар ярьж сурлаа.",
+        "course_name_zh": "全能汉语口语速成",
+        "course_name_en": "Survival Chinese Speaking",
+        "course_name_mn": "Хятад хэлний ярианы курс",
+        "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ahmed",
+        "rating": 5,
+        "is_visible": true
+    },
+    {
+        "id": "ts4",
+        "student_name_zh": "Sophie Müller",
+        "student_name_en": "Sophie Müller",
+        "student_name_mn": "Софи Мюллер",
+        "content_zh": "文化课让我对中国有了全新的认识，不仅仅是语言，更是一种思维方式的提升。",
+        "content_en": "Culture classes gave me a new understanding of China. It's not just language, but a way of thinking.",
+        "content_mn": "Соёлын хичээлүүд Хятадын талаарх миний ойлголтыг бүрэн өөрчилсөн.",
+        "course_name_zh": "中华文化体验课",
+        "course_name_en": "Chinese Culture Workshop",
+        "course_name_mn": "Хятадын соёлтой танилцах",
+        "avatar_url": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sophie",
+        "rating": 5,
+        "is_visible": true
+    }
+]

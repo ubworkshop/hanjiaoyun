@@ -1,0 +1,79 @@
+/* 全局视觉增强 锋 */
+
+:root {
+  --primary-color: #4f46e5;
+  --primary-hover: #4338ca;
+  --secondary-color: #f59e0b;
+  --bg-soft: #f8fafc;
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --transition-base: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  background-color: #ffffff;
+  color: #1e293b;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 现代卡片悬停效果 锋 */
+.hover-lift {
+  transition: var(--transition-base) !important;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg) !important;
+}
+
+/* 按钮微动效 锋 */
+.ant-btn-primary {
+  box-shadow: 0 4px 14px 0 rgba(79, 70, 229, 0.39);
+  transition: var(--transition-base);
+}
+
+.ant-btn-primary:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 20px rgba(79, 70, 229, 0.23);
+}
+
+/* 渐变装饰 锋 */
+.hero-gradient {
+  background: linear-gradient(135deg, rgba(79, 70, 229, 0.03) 0%, rgba(79, 70, 229, 0.08) 100%);
+}
+
+/* 响应式优化 锋 */
+:root {
+  --container-px: 50px;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --container-px: 20px;
+  }
+}
+
+.responsive-padding {
+  padding-left: var(--container-px) !important;
+  padding-right: var(--container-px) !important;
+}
+
+@media (max-width: 576px) {
+  h1.ant-typography {
+    font-size: 32px !important;
+  }
+
+  h2.ant-typography {
+    font-size: 24px !important;
+  }
+
+  .hero-gradient {
+    padding: 60px 20px !important;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
