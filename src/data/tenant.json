@@ -72,6 +72,7 @@
         "show_teachers": true,
         "social_platforms": {
             "messenger_link": "https://m.me/baatar.ulan",
+            "facebook_link": "https://www.facebook.com/baatar.ulan",
             "wechat_id": "Ulaanbaater",
             "wechat_qr_url": "/images/wechat_qr.png",
             "web3forms_key": "b2f83a4b-d33d-4a18-b1a5-48cf44dd0f97"

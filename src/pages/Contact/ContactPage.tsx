@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typography, Row, Col, Card, Form, Input, Button, message, Space, Tag, Badge } from 'antd';
-import { PhoneOutlined, MailOutlined, EnvironmentOutlined, SendOutlined, MessageOutlined } from '@ant-design/icons';
+import { PhoneOutlined, MailOutlined, EnvironmentOutlined, SendOutlined, MessageOutlined, FacebookOutlined } from '@ant-design/icons';
 import { useTranslation } from 'react-i18next';
 import api from '../../services/api';
 
@@ -128,28 +128,55 @@ const ContactPage: React.FC = () => {
                             <div style={{ marginTop: 20, paddingTop: 40, borderTop: '1px solid #f1f5f9' }}>
                                 <Title level={4} style={{ marginBottom: 24 }}>{t('contact.instant_chat')}</Title>
                                 <Space direction="vertical" size={24} style={{ width: '100%' }}>
-                                    {/* Messenger Button */}
-                                    <Button
-                                        type="primary"
-                                        size="large"
-                                        icon={<MessageOutlined />}
-                                        href={tenantInfo?.settings?.social_platforms?.messenger_link}
-                                        target="_blank"
-                                        style={{
-                                            width: '100%',
-                                            height: 56,
-                                            borderRadius: 12,
-                                            background: 'linear-gradient(135deg, #0695FF 0%, #A334FA 100%)',
-                                            border: 'none',
-                                            fontSize: 16,
-                                            fontWeight: 600,
-                                            display: 'flex',
-                                            alignItems: 'center',
-                                            justifyContent: 'center'
-                                        }}
-                                    >
-                                        {t('contact.messenger_chat')}
-                                    </Button>
+                                    {/* Messenger & Facebook Buttons */}
+                                    <Row gutter={16}>
+                                        <Col span={12}>
+                                            <Button
+                                                type="primary"
+                                                size="large"
+                                                icon={<MessageOutlined />}
+                                                href={tenantInfo?.settings?.social_platforms?.messenger_link}
+                                                target="_blank"
+                                                style={{
+                                                    width: '100%',
+                                                    height: 56,
+                                                    borderRadius: 12,
+                                                    background: 'linear-gradient(135deg, #0695FF 0%, #A334FA 100%)',
+                                                    border: 'none',
+                                                    fontSize: 16,
+                                                    fontWeight: 600,
+                                                    display: 'flex',
+                                                    alignItems: 'center',
+                                                    justifyContent: 'center'
+                                                }}
+                                            >
+                                                {t('contact.messenger_chat')}
+                                            </Button>
+                                        </Col>
+                                        <Col span={12}>
+                                            <Button
+                                                type="primary"
+                                                size="large"
+                                                icon={<FacebookOutlined />}
+                                                href={tenantInfo?.settings?.social_platforms?.facebook_link}
+                                                target="_blank"
+                                                style={{
+                                                    width: '100%',
+                                                    height: 56,
+                                                    borderRadius: 12,
+                                                    background: '#1877F2',
+                                                    border: 'none',
+                                                    fontSize: 16,
+                                                    fontWeight: 600,
+                                                    display: 'flex',
+                                                    alignItems: 'center',
+                                                    justifyContent: 'center'
+                                                }}
+                                            >
+                                                {t('contact.facebook_chat')}
+                                            </Button>
+                                        </Col>
+                                    </Row>
 
                                     {/* WeChat Card */}
                                     <Card

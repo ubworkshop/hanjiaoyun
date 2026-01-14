@@ -83,6 +83,7 @@ const resources = {
                 "placeholder_message": "请描述您的学习需求或疑问...",
                 "instant_chat": "即时咨询",
                 "messenger_chat": "Messenger 交流",
+                "facebook_chat": "Facebook 主页",
                 "wechat_chat": "微信咨询",
                 "scan_qr": "扫码即可关注",
                 "chat_desc": "蒙古国最受欢迎的沟通方式，家长首选。"
@@ -171,6 +172,7 @@ const resources = {
                 "placeholder_message": "Describe your needs or questions...",
                 "instant_chat": "Instant Inquiry",
                 "messenger_chat": "Messenger",
+                "facebook_chat": "Facebook",
                 "wechat_chat": "WeChat",
                 "scan_qr": "Scan to Follow",
                 "chat_desc": "The most popular way in Mongolia, preferred by parents."
@@ -247,6 +249,7 @@ const resources = {
                 "placeholder_message": "Сурах хэрэгцээ эсвэл асуултаа тайлбарлана уу...",
                 "instant_chat": "Шуурхай зөвлөгөө",
                 "messenger_chat": "Messenger",
+                "facebook_chat": "Facebook",
                 "wechat_chat": "WeChat",
                 "scan_qr": "QR код уншуулах",
                 "chat_desc": "Монголын хамгийн түгээмэл харилцаа, эцэг эхчүүдийн сонголт."

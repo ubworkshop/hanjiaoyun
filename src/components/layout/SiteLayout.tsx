@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Layout, Menu, Button, Space, Select, Drawer, Typography } from 'antd';
 import { useTranslation } from 'react-i18next';
 import { useNavigate, useLocation, Outlet } from 'react-router-dom';
-import { MenuOutlined } from '@ant-design/icons';
+import { MenuOutlined, FacebookFilled, MessageFilled } from '@ant-design/icons';
 import api from '../../services/api';
 import SEO from '../common/SEO';
 
@@ -142,6 +142,16 @@ const SiteLayout: React.FC = () => {
                 <div style={{ color: '#4f46e5', fontWeight: 'bold', fontSize: 18, marginBottom: 16 }}>
                     {tenantInfo?.[`name_${currentLang}`] || tenantInfo?.name_zh || '汉教云'}
                 </div>
+
+                <Space size={24} style={{ marginBottom: 24 }}>
+                    <a href={tenantInfo?.settings?.social_platforms?.facebook_link} target="_blank" rel="noopener noreferrer" style={{ color: '#1877F2', fontSize: 24 }}>
+                        <FacebookFilled />
+                    </a>
+                    <a href={tenantInfo?.settings?.social_platforms?.messenger_link} target="_blank" rel="noopener noreferrer" style={{ color: '#0084FF', fontSize: 24 }}>
+                        <MessageFilled />
+                    </a>
+                </Space>
+
                 <div style={{ color: '#64748b', fontSize: 12 }}>©2024 {tenantInfo?.[`name_${currentLang}`] || 'Hanjiao Cloud'}. All Rights Reserved.</div>
             </Footer>
 
